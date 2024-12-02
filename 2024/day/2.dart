@@ -3,14 +3,13 @@ import 'dart:io';
 class RedNosedReportChecker {
   String? filename;
   List<String>? report;
-  int safeReports = 0;
 
   RedNosedReportChecker(this.filename) {
     report = File(this.filename!).readAsLinesSync();
   }
 
   int checkReports({bool tolerateSingleBadLevel = false}) {
-    safeReports = 0;
+    int safeReports = 0;
     for (String line in this.report!) {
       List<int> lineContent = line.split(" ").map(int.parse).toList();
       if (!tolerateSingleBadLevel) {
