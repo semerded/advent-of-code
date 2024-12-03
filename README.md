@@ -11,7 +11,7 @@ for the coding challenges
 <ol>
   <li>missed</li>
   <li>completed!</li>
-  <li></li>
+  <li>completed!</li>
   <li></li>
   <li></li>
   <li></li>
