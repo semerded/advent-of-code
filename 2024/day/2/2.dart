@@ -62,7 +62,7 @@ class RedNosedReportChecker {
 }
 
 void main() {
-  RedNosedReportChecker reportChecker = RedNosedReportChecker("day/2.txt");
+  RedNosedReportChecker reportChecker = RedNosedReportChecker("2024/day/2.txt");
   print("Part 1: ${reportChecker.checkReports()}");
   print("Part 2: ${reportChecker.checkReports(tolerateSingleBadLevel: true)}");
 }
