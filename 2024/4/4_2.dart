@@ -44,33 +44,3 @@ bool searchInSlidingWindow(int xPos, int yPos) {
 
   return (str1 == xmas || str1 == xmas.split('').reversed.join('')) && (str2 == xmas || str2 == xmas.split('').reversed.join(''));
 }
-
-bool searchHorizontal(int i, List<List<String>> content) {
-  String str = "";
-  for (int j = 0; j < 4; j++) {
-    str += content[i][j];
-  }
-  return str == xmas || str == xmas.split('').reversed.join('');
-}
-
-bool searchVertical(int i, List<List<String>> content) {
-  String str = "";
-  for (int j = 0; j < 4; j++) {
-    str += content[j][i];
-  }
-  return str == xmas || str == xmas.split('').reversed.join('');
-}
-
-bool searchDiagonal(int i, List<List<String>> content) {
-  String str = "";
-  if (i == 0) {
-    for (int j = 0; j < 4; j++) {
-      str += content[j][j];
-    }
-  } else {
-    for (int j = 0; j < 4; j++) {
-      str += content[j][(j - 3).abs()];
-    }
-  }
-  return str == xmas || str == xmas.split('').reversed.join('');
-}
