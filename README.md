@@ -12,7 +12,7 @@ for the coding challenges
   <li>missed</li>
   <li>completed!</li>
   <li>completed!</li>
-  <li></li>
+  <li>completed!</li>
   <li></li>
   <li></li>
   <li></li>
