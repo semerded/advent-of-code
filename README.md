@@ -14,10 +14,10 @@ for the coding challenges
   <li>completed!</li>
   <li>completed!</li>
   <li>completed!</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>completed!</li>
+  <li>completed</li>
+  <li>first only</li>
+  <li>completed!</li>
   <li></li>
   <li></li>
   <li></li>
